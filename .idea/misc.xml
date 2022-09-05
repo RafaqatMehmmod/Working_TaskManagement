@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/button_shape.xml" value="0.1665" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/company_icon.xml" value="0.1665" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/insert_pic_icon.xml" value="0.1665" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/men_icon.xml" value="0.1665" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/men_icon_black.xml" value="0.12" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/signup_icon.xml" value="0.1665" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/spinner_background.xml" value="0.1065" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/drawable/team_icon_white.xml" value="0.1095" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_add_employ.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_add_task.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_create_company.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_create_hp.xml" value="0.17" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_dashboard.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_google_login.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_hrdashboard.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_list_of_member.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_login.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_main_dashboard.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_normal_user.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_pmdashboard.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_project_manager_dashboard.xml" value="0.2" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_task_show.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_team.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/activity_user_task_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/complete_user_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/delay_user_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/fragment_delay.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/fragment_employ.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/fragment_in_progress.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/inprogress_user_list.xml" value="0.2" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/register_employ_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/register_user_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/register_user_list2.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/show_team_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/show_team_list2.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/user_task_for_complete_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/layout/workplace_user_list.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/menu/delete_menu.xml" value="0.1921875" />
+        <entry key="..\:/SupportiveHandsITSolutions/Rafaqat/6.TaskManagent/FirstFromGoogleDrive/task_management-master/app/src/main/res/menu/log_out.xml" value="0.1921875" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_add_employ.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_add_task.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_create_company.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_hrdashboard.xml" value="0.33" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_normal_user.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_pmdashboard.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_project_manager_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_user_task_list.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/activity_user_task_list2.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/delay_user_list.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/fragment_work_place.xml" value="0.1" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/user_task_for_complete_list.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/user_task_for_complete_list2.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/layout/workplace_user_list.xml" value="0.2" />
+        <entry key="..\:/Users/RafaqatMehmood/Desktop/task_management-master/app/src/main/res/menu/logout.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

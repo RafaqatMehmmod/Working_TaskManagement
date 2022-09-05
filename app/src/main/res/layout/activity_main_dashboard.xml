@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="10"
+        tools:context=".activities.MainDashboard">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            tools:ignore="UselessLeaf">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/logowhite"
+                android:contentDescription="forlogo">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf" >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/createCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/registeracompany"
+                android:background="@drawable/button_shape"
+                android:drawableLeft="@drawable/company_icon"
+                android:paddingLeft="16dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/joinCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_shape"
+                android:drawableLeft="@drawable/men_icon"
+                android:text="@string/joinascompany"
+                android:paddingLeft="16dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            tools:ignore="UselessLeaf" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="top"
+            android:weightSum="10"
+            tools:context=".activities.pmdashboard.PMDashboard">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_weight="0.8">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/createCompany"
+                    android:layout_width="0dp"
+                    android:layout_weight="8.5"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:text="@string/maindashboard"
+                    android:drawableLeft="@drawable/company_icon"
+                    android:paddingLeft="16dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:gravity="left|center"/>
+                <ImageView
+                    android:id="@+id/logout"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:background="@color/black"
+                    android:src="@drawable/dot_menu_white"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:background="#E6E6E6"
+                android:layout_weight="9.2">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycleView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/projectManager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_margin="16dp"
+                        android:clickable="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:backgroundTint="@color/white"
+                        android:background="@color/white"
+                        app:borderWidth="0dp"
+                        app:fabSize="normal"
+                        android:src="@drawable/team_icon" />
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:id="@+id/progressBar"
+                        style="@style/SpinKitView.Wave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:SpinKit_Color="@color/black"
+                        android:visibility="invisible"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</layout>

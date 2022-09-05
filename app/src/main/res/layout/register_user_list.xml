@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+        <variable
+            name="item"
+            type="com.example.taskmanagement.model.CreateHP" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginStart="8dp"
+        android:id="@+id/pdf_cardView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp">
+
+            <View
+                android:id="@+id/byke_view"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_gb"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5">
+
+            </View>
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/retrieve_Image"
+                app:layout_constraintTop_toTopOf="@id/byke_view"
+                app:layout_constraintBottom_toBottomOf="@id/byke_view"
+                app:layout_constraintEnd_toEndOf="@id/byke_view"
+                app:layout_constraintStart_toStartOf="@+id/byke_view"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:imgUrlHP="@{item.imageUrl}"
+                android:scaleType="centerCrop"
+                app:roundPercent="50"
+                android:src="@drawable/ic_pic">
+
+            </androidx.constraintlayout.utils.widget.ImageFilterView>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold|italic"
+                android:text="@{item.name}"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toEndOf="@id/byke_view"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.21">
+            </TextView>
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:singleLine="true"
+                android:text="@{item.designation}"
+                android:textColor="@color/purple_500"
+                android:textSize="15sp"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/byke_view"
+                app:layout_constraintTop_toBottomOf="@id/name"
+                app:layout_constraintVertical_bias="0.21">
+            </TextView>
+
+
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:layout_constraintStart_toStartOf="@id/retrieve_Image"-->
+<!--                app:layout_constraintEnd_toEndOf="@id/retrieve_Image"-->
+<!--                app:layout_constraintTop_toTopOf="@id/retrieve_Image"-->
+<!--                app:layout_constraintBottom_toBottomOf="@id/retrieve_Image">-->
+<!--            </ProgressBar>-->
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_dot"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.98"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05">
+
+            </ImageView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

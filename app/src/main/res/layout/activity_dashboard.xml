@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+<!--        <variable-->
+<!--            name="item"-->
+<!--            type="com.example.taskmanagement.model.User" />-->
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.Dashboard">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/selected_image"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:background="@drawable/logowhite"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taskmangementapp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="Well Come"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sdp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="To"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/_22sdp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Company Name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:hint="Designation"
+            android:textSize="@dimen/_15sdp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700">
+
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/men_icon"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="@string/joinnow"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+           />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6E6E6"
+        tools:context=".activities.ListOfMember">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="@dimen/_40sdp">
+
+
+        </View>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="@id/view"
+            app:layout_constraintEnd_toEndOf="@id/view"
+            app:layout_constraintTop_toTopOf="@id/view"
+            app:layout_constraintBottom_toBottomOf="@id/view"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_weight="0.8">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/createCompany"
+                android:layout_width="0dp"
+                android:layout_weight="8.5"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="   HR Dashboard"
+                android:drawableLeft="@drawable/company_icon"
+                android:paddingLeft="16dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="left|center"/>
+            <ImageView
+                android:id="@+id/logout"
+                android:padding="@dimen/_8sdp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/black"
+                android:src="@drawable/dot_menu_white"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:background="@color/black"
+            android:outlineAmbientShadowColor="@color/white"
+            app:tabIndicatorColor="@color/white"
+            app:tabIndicatorHeight="@dimen/_3sdp"
+
+            app:tabTextColor="@color/white"
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view"
+            android:layout_height="wrap_content">
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabLayout"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

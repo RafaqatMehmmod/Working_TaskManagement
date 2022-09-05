@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Task Management</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="taskmangementapp">Task Management App</string>
+    <string name="forlogo">For Logo</string>
+    <string name="register">Register Now</string>
+    <string name="with">---- With -----</string>
+    <string name="registerwithgoole">Register with Google</string>
+    <string name="joinascompany">Join a Company</string>
+    <string name="registeracompany">Register a Company</string>
+    <string name="confirm">Confirm</string>
+    <string name="insertCompnyLogo">Insert Company Logo</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="enterComapnyName">Enter Company Name</string>
+    <string name="typeofbusiness">Type of Business</string>
+    <string name="stateorcountry">Enter Country name</string>
+    <string name="title_activity_intro_hrpro">IntroHRPro</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="createyourteam">Create Your Team</string>
+    <string name="or">------OR------</string>
+    <string name="Email">Email</string>
+    <string name="maindashboard">&#160;&#160;Main Dashboard</string>
+    <string name="insertprofilepic">Insert Profile Photo</string>
+    <string name="yourComapnyName">Your Company Name</string>
+    <string name="name">Name</string>
+    <string name="designation">Designation</string>
+    <string name="createUser">Create User</string>
+    <string name="login">Login</string>
+    <string name="joinnow">Join Now</string>
+    <string name="role">Role/Designation</string>
+    <string name="addemploee">Add Employee</string>
+    <string name="enterTeamNam">Enter your team name...</string>
+    <string name="createTeam">Create team</string>
+    <string name="enterStatus">Status</string>
+    <string name="createTeamSpace">&#160;&#160;Team</string>
+
+</resources>
